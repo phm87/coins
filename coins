@@ -3615,5 +3615,23 @@
    }
   },
   "decimals": 18
+ },
+ {
+  "coin": "WSCRT",
+  "gui_coin": "WSCRT",
+  "name": "ethereum",
+  "fname": "Wrapped SCRT",
+  "rpcport": 80,
+  "mm2": 1,
+  "required_confirmations": 3,
+  "avg_blocktime": 0.25,
+  "protocol": {
+   "type": "ERC20",
+   "protocol_data": {
+    "platform": "ETH",
+    "contract_address": "0x2b89bf8ba858cd2fcee1fada378d5cd6936968be"
+   }
+  },
+  "decimals": 6
  }
 ]
